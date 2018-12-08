@@ -6,16 +6,32 @@ My Lab to learn EGGJS + Docker
 
 ### Development
 
+#### With Docker
 ```bash
-$ docker-compose -f dcker-compose-dev.yml up
+$ docker-compose -f docker-compose-dev.yml up
 ```
 
+#### Without Docker
+```bash
+$ npm install
+$ npm run debug
+```
 
 ### Deploy
 
+
+#### With Docker
 ```
-I don't know how to deploy yet
+Finding out
 ```
+
+#### Without Docker
+```
+$ npm install
+$ npm run tsc
+$ npm start
+```
+
 
 ### Npm Scripts
 
