@@ -27,3 +27,4 @@ I don't know how to deploy yet
 
 - Node.js 8.x
 - Typescript 2.8+
+- Docker
