@@ -1,24 +1,20 @@
-# hackernews-async-ts
+# eggjs-lab
 
-[Hacker News](https://news.ycombinator.com/) showcase using typescript && egg
+My Lab to learn EGGJS + Docker
 
 ## QuickStart
 
 ### Development
 
 ```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
+$ docker-compose -f dcker-compose-dev.yml up
 ```
 
-Don't tsc compile at development mode, if you had run `tsc` then you need to `npm run clean` before `npm run dev`.
 
 ### Deploy
 
-```bash
-$ npm run tsc
-$ npm start
+```
+I don't know how to deploy yet
 ```
 
 ### Npm Scripts
