@@ -1,0 +1,19 @@
+version: "3"
+services:
+  web:
+    restart: always
+    build: .
+    ports:
+    - "7001:7001"
+    volumes:
+    - .:/usr/src/app
+    - /usr/app/node_modules
+    environment:
+      DATABASE_URL: 'mongodb://mongo:27017/contact-book'
+    command: npm run dev
+  mongo:
+    image: mongo
+    volumes:
+    - ./data:/data/db
+    ports:
+    - "27017:27017"
