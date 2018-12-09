@@ -9,7 +9,7 @@ services:
     - .:/usr/src/app
     - /usr/app/node_modules
     environment:
-      DATABASE_URL: 'mongodb://mongo:27017/contact-book'
+      MONGODB_URI: 'mongodb://mongo:27017/contact-book'
     command: npm run dev
   mongo:
     image: mongo

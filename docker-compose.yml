@@ -2,11 +2,11 @@ version: "3"
 services:
   web:
     restart: always
-    build: .
+    image: thaihoa311/egg-contact-book:1
     ports:
     - "7001:7001"
     environment:
-      DATABASE_URL: 'mongodb://mongo:27017/contact-book'
+      MONGODB_URI: 'mongodb://mongo:27017/contact-book'
   mongo:
     image: mongo
     volumes:

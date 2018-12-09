@@ -21,7 +21,7 @@ export default (appInfo: EggAppInfo) => {
     csrf: false
   };
 
-  const databaseURL = process.env.DATABASE_URL || 'mongodb://localhost:27017/contact-book';
+  const databaseURL = process.env.MONGODB_URI || 'mongodb://localhost:27017/contact-book';
 
   config.mongoose = {
     url: databaseURL
