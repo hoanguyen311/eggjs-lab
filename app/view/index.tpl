@@ -15,7 +15,6 @@
       <div class="row">
         <div class="col-sm">
           <h1>Contact Book</h1>
-          <h2>Developed by Thai Hoa, ok fine</h2>
         </div>
       </div>
       <div class="card mb-3">
