@@ -7,7 +7,7 @@
     "typescript": true
   },
   "scripts": {
-    "start": "egg-scripts start --deamon --title=egg-server-todo-app-by-eggjs",
+    "start": "egg-scripts start --title=egg-server-todo-app-by-eggjs",
     "stop": "egg-scripts stop --title=egg-server-todo-app-by-eggjs",
     "dev": "egg-bin dev -r egg-ts-helper/register",
     "debug": "egg-bin debug -r egg-ts-helper/register",

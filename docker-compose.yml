@@ -7,6 +7,8 @@ services:
     - "7001:7001"
     environment:
       MONGODB_URI: 'mongodb://mongo:27017/contact-book'
+    depends_on:
+    - mongo
   mongo:
     image: mongo
     volumes:
